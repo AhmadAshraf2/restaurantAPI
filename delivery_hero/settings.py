@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Restaurant.apps.RestaurantConfig',
     'rest_framework_swagger',
     'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,18 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'delivery_hero.urls'
+
+
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'api_key': {
+            'type': 'apiKey',
+            'in': 'header',
+            'name': 'Authorization'
+        }
+    },
+}
+
 
 TEMPLATES = [
     {
