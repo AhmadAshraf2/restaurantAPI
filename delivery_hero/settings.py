@@ -25,7 +25,7 @@ SECRET_KEY = '#(=b_z8p%_&cj5ez%q+#dn@$*=scnxbv=5^(9pa*_aw4(9mtbw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '*']
 
 
 # Application definition
@@ -62,7 +62,7 @@ SWAGGER_SETTINGS = {
             'type': 'apiKey',
             'in': 'header',
             'name': 'Authorization'
-        }
+        },
     },
 }
 
@@ -92,10 +92,21 @@ WSGI_APPLICATION = 'delivery_hero.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'restaurant',
+        'USER': 'ahmad',
+        'PASSWORD': 'abc123456',
+        'HOST': 'restaurantdb',
+        'PORT': 5432,
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 
 # Password validation

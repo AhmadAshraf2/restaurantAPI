@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d295bf-492d-4615-9f0f-06e2d7474e9d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db87567f-0469-4b6a-85e8-9c09c5e4d3d7.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/restaurantAPI.iml" afterPath="$PROJECT_DIR$/.idea/restaurantAPI.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/tests.py" afterPath="$PROJECT_DIR$/Restaurant/tests.py" />
+      <change beforePath="$PROJECT_DIR$/Restaurant/urls.py" afterPath="$PROJECT_DIR$/Restaurant/urls.py" />
       <change beforePath="$PROJECT_DIR$/Restaurant/views.py" afterPath="$PROJECT_DIR$/Restaurant/views.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/delivery_hero/settings.py" afterPath="$PROJECT_DIR$/delivery_hero/settings.py" />
+      <change beforePath="$PROJECT_DIR$/delivery_hero/urls.py" afterPath="$PROJECT_DIR$/delivery_hero/urls.py" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,6 +22,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/restaurantAPI$restaurant_tests.coverage" NAME="restaurant_tests Coverage Results" MODIFIED="1523725345146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Restaurant" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -25,25 +38,33 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="restaurant@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="restaurant: database" type="6d9b600a:PostgresImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="Restaurant_restaurant: table" type="ffe0bd85:SqliteImplModel$Table" />
+        <item name="restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="restaurant: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="restaurant@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="restaurant: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -53,62 +74,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Restaurant/views.py">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Restaurant/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery_hero/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="378">
+              <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delivery_hero/wsgi.py">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dockers/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#229#238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth_user" pinned="false" current-in-tab="false">
-        <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.auth_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="144">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_sche</find>
+      <find>credentials</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,10 +115,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/delivery_hero/urls.py" />
-        <option value="$PROJECT_DIR$/delivery_hero/settings.py" />
         <option value="$PROJECT_DIR$/Restaurant/models.py" />
+        <option value="$PROJECT_DIR$/docker/python/Dockerfile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$USER_HOME$/.PyCharm2017.3/system/remote_sources/1973762983/-337502517/rest_framework_swagger/views.py" />
+        <option value="$PROJECT_DIR$/entrypoint.sh" />
         <option value="$PROJECT_DIR$/Restaurant/views.py" />
+        <option value="$PROJECT_DIR$/override_swagger_schema.py" />
+        <option value="$USER_HOME$/Work/Venv/django/lib/python3.5/site-packages/rest_framework_swagger/views.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/swagger_schema.py" />
+        <option value="$PROJECT_DIR$/delivery_hero/settings.py" />
+        <option value="$PROJECT_DIR$/delivery_hero/urls.py" />
+        <option value="$PROJECT_DIR$/Restaurant/urls.py" />
+        <option value="$PROJECT_DIR$/Restaurant/tests.py" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/dockers/Dockerfile" />
       </list>
     </option>
   </component>
@@ -158,16 +169,6 @@
               <item name="restaurantAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="restaurantAPI" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="restaurantAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurantAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="delivery_hero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurantAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurantAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="Restaurant" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -176,10 +177,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Restaurant" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;Sqlite (Xerial)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dockers" />
+      <recent name="$PROJECT_DIR$/delivery_hero" />
+      <recent name="$PROJECT_DIR$/Restaurant" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,7 +205,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.restaurant_tests">
+    <configuration name="restaurant_tests" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="docker-compose://[$PROJECT_DIR$/docker-compose.yml]:web/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Restaurant" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="restaurantAPI" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
     <configuration name="restaurantAPI" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,6 +248,10 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Django server.restaurantAPI" />
+      <item index="1" class="java.lang.String" itemvalue="Django tests.restaurant_tests" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -234,18 +269,52 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="restaurant_tests - 2018.04.14 at 19h 32m 50s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 20h 59m 13s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 21h 10m 42s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 21h 12m 02s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 21h 12m 50s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 21h 18m 04s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 21h 23m 12s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 21h 54m 49s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 21h 59m 33s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="restaurant_tests - 2018.04.14 at 22h 02m 32s.xml">
+      <configuration name="restaurant_tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5172775" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5172775" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13045882" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1321172" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23438364" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -255,9 +324,30 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5172775" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1321172" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23438364" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -266,88 +356,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2017.3/system/remote_sources/1973762983/-337502517/rest_framework_swagger/views.py</url>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Restaurant/tests.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="24" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Restaurant/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurant/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery_hero/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#229#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurant/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurant/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurant/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery_hero/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#229#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery_hero/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/delivery_hero/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -360,16 +384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delivery_hero/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -380,17 +395,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.Restaurant_restaurant" />
+    <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.authtoken_token" />
+    <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.auth_user" />
+    <entry file="file://$PROJECT_DIR$/delivery_hero/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurant/urls.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b4b91480-d6a6-49da-91c8-3a93a3cb46f2/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/179efd95-f262-4d30-85c9-13d28c6a883e/restaurant.public.authtoken_token" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/179efd95-f262-4d30-85c9-13d28c6a883e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/179efd95-f262-4d30-85c9-13d28c6a883e/restaurant.public.Restaurant_restaurant" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8ebef4f1-c211-48c8-896e-543b868297fa/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/8ebef4f1-c211-48c8-896e-543b868297fa/restaurant.public.Restaurant_restaurant" />
+    <entry file="file://$PROJECT_DIR$/dockers/wait_for_it.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/8ebef4f1-c211-48c8-896e-543b868297fa/restaurant.public.django_admin_log" />
+    <entry file="das://table:/884cac85/8ebef4f1-c211-48c8-896e-543b868297fa/restaurant.public.authtoken_token" />
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/remote_sources/1973762983/-337502517/rest_framework_swagger/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="57" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/cf0aa4d6-416e-4bc1-8b09-0625ce2d2905/restaurant.public.authtoken_token" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cf0aa4d6-416e-4bc1-8b09-0625ce2d2905/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/0b585eae-4ad9-4946-9974-bfaff7e4395a/restaurant.public.Restaurant_restaurant" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0b585eae-4ad9-4946-9974-bfaff7e4395a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/b1919f7b-12f0-482a-8386-510e76af789d/main.Restaurant_restaurant">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/0b585eae-4ad9-4946-9974-bfaff7e4395a/restaurant.public.authtoken_token" />
+    <entry file="file://$PROJECT_DIR$/dockers/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b1919f7b-12f0-482a-8386-510e76af789d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a2758dab-9908-4ed6-a529-2006d1521d15/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/b1919f7b-12f0-482a-8386-510e76af789d/main.authtoken_token">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/b1919f7b-12f0-482a-8386-510e76af789d/main.auth_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -398,65 +526,174 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.Restaurant_restaurant">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/Restaurant/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.authtoken_token">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/Restaurant/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/override_swagger_schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Work/Venv/django/lib/python3.5/site-packages/rest_framework_swagger/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery_hero/swagger_schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Work/Venv/django/lib/python3.5/site-packages/rest_framework_swagger/renderers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Work/Venv/django/lib/python3.5/site-packages/django/test/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="579" column="75" lean-forward="false" selection-start-line="579" selection-start-column="64" selection-end-line="579" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delivery_hero/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="34" />
+        <state relative-caret-position="1908">
+          <caret line="106" column="55" lean-forward="true" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delivery_hero/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/Restaurant/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#229#238#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/884cac85/db87567f-0469-4b6a-85e8-9c09c5e4d3d7/main.auth_user">
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/remote_sources/1973762983/249573927/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="604" column="0" lean-forward="false" selection-start-line="604" selection-start-column="0" selection-end-line="604" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/884cac85/a2758dab-9908-4ed6-a529-2006d1521d15/restaurant.public.auth_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurant/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+    <entry file="das://table:/884cac85/a2758dab-9908-4ed6-a529-2006d1521d15/restaurant.public.authtoken_token">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Restaurant/views.py">
+    <entry file="das://table:/884cac85/a2758dab-9908-4ed6-a529-2006d1521d15/restaurant.public.Restaurant_restaurant">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Restaurant/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="8" column="94" lean-forward="false" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delivery_hero/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dockers/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

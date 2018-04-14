@@ -15,8 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from rest_framework_swagger.views import get_swagger_view
-from rest_framework.authtoken import views as rest_framework_views
+from delivery_hero.swagger_schema import get_swagger_view
 
 schema_view = get_swagger_view(title='Restaurant API')
 
@@ -26,5 +25,4 @@ urlpatterns = [
     url(r'^restaurant/', include('Restaurant.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('django.contrib.auth.urls')),
-    url(r'^get_auth_token/$', rest_framework_views.obtain_auth_token, name='get_auth_token'),
 ]

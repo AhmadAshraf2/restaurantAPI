@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="db.sqlite3" uuid="db87567f-0469-4b6a-85e8-9c09c5e4d3d7">
+    <data-source name="db.sqlite3" uuid="b1919f7b-12f0-482a-8386-510e76af789d">
       <database-info product="SQLite" version="3.20.1" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.20.1.1" />
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
       <secret-storage>master_key</secret-storage>
       <auth-required>false</auth-required>
       <introspection-schemas>*:main</introspection-schemas>
+    </data-source>
+    <data-source name="restaurant@localhost" uuid="a2758dab-9908-4ed6-a529-2006d1521d15">
+      <database-info product="PostgreSQL" version="9.5.6" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>ahmad</user-name>
+      <introspection-schemas>restaurant:public</introspection-schemas>
     </data-source>
   </component>
 </project>

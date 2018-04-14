@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db.sqlite3" uuid="db87567f-0469-4b6a-85e8-9c09c5e4d3d7">
+    <data-source source="LOCAL" name="db.sqlite3" uuid="b1919f7b-12f0-482a-8386-510e76af789d">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="restaurant@localhost" uuid="a2758dab-9908-4ed6-a529-2006d1521d15">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5442/restaurant</jdbc-url>
+      <driver-properties>
+        <property name="ApplicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
   </component>

@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+
+    restaurantdb:
+        container_name: "postgres_container"
+        image: onjin/alpine-postgres:9.5
+        restart: unless-stopped
+        ports:
+            - "5442:5432"
+        environment:
+            LC_ALL: C.UTF-8
+            POSTGRES_USER: ahmad
+            POSTGRES_PASSWORD: abc123456
+            POSTGRES_DB: restaurant
+
+    web:
+        container_name: "django_container"
+        build:
+            context: ./
+            dockerfile: ./dockers/Dockerfile
+        command: ["./dockers/wait_for_it.sh", "postgres:5432", "--", "./dockers/entrypoint.sh"]
+        volumes:
+            - .:/code
+        ports:
+            - "8000:8000"
+        expose:
+            - "8000"
+        depends_on:
+            - restaurantdb

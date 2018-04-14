@@ -1,10 +1,15 @@
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
-from rest_framework.generics import RetrieveAPIView, CreateAPIView, DestroyAPIView, UpdateAPIView
+from rest_framework.generics import RetrieveAPIView, CreateAPIView, DestroyAPIView, UpdateAPIView, ListAPIView
 from . import models, serializers
 
 
 class ViewRestaurant(RetrieveAPIView):
+    queryset = models.Restaurant.objects.all()
+    serializer_class = serializers.ViewRestaurantSerializer
+
+
+class ViewAllRestaurant(ListAPIView):
     queryset = models.Restaurant.objects.all()
     serializer_class = serializers.ViewRestaurantSerializer
 
