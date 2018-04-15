@@ -1,31 +1,27 @@
 from . import models
 from rest_framework import serializers
 
+# seperate serializsers are implemented for each CRUD operation. this is done to support scalability and abstraction.
 
-class ViewRestaurantSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = models.Restaurant
-        fields = ('name', 'opens_at', 'closes_at')
-
-
-class CreateRestaurantSerializer(serializers.ModelSerializer):
+class RestaurantSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Restaurant
-        fields = ('name', 'opens_at', 'closes_at')
+        fields = ('id', 'name', 'opens_at', 'closes_at')
 
 
-class DestroyRestaurantSerializer(serializers.ModelSerializer):
-
-    class Meta:
-        model = models.Restaurant
-        fields = ('name', 'opens_at', 'closes_at')
+class ViewRestaurantSerializer(RestaurantSerializer):
+    pass
 
 
-class UpdateRestaurantSerializer(serializers.ModelSerializer):
+class CreateRestaurantSerializer(RestaurantSerializer):
+    pass
 
-    class Meta:
-        model = models.Restaurant
-        fields = ('name', 'opens_at', 'closes_at')
+
+class DestroyRestaurantSerializer(RestaurantSerializer):
+    pass
+
+
+class UpdateRestaurantSerializer(RestaurantSerializer):
+    pass
 
