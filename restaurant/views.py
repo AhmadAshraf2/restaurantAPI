@@ -4,35 +4,45 @@ from rest_framework.generics import RetrieveAPIView, CreateAPIView, DestroyAPIVi
 from . import models, serializers
 
 
-# Entertains GET request and returns single restaurant object
 class ViewRestaurant(RetrieveAPIView):
+    """
+    Entertains GET request and returns single restaurant object
+    """
     queryset = models.Restaurant.objects.all()
     serializer_class = serializers.RestaurantSerializer
 
 
-# Entertains GET request and returns all restaurant objects
 class ViewAllRestaurant(ListAPIView):
+    """
+    Entertains GET request and returns all restaurant objects
+    """
     queryset = models.Restaurant.objects.all()
     serializer_class = serializers.RestaurantSerializer
 
 
-# Entertains POST request and creates restaurant object
 class CreateRestaurant(CreateAPIView):
+    """
+    Entertains POST request and creates restaurant object
+    """
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
     serializer_class = serializers.RestaurantSerializer
 
 
-# Entertains DELETE request and deletes restaurant object
 class DeleteRestaurant(DestroyAPIView):
+    """
+    Entertains DELETE request and deletes restaurant object
+    """
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAdminUser,)
     queryset = models.Restaurant.objects.all()
     serializer_class = serializers.RestaurantSerializer
 
 
-# Entertains PUT/PATCH requests and updates existing object
 class UpdateRestaurant(UpdateAPIView):
+    """
+    Entertains PUT/PATCH requests and updates existing object
+    """
     authentication_classes = (TokenAuthentication,)
     permission_classes = (IsAuthenticated,)
     queryset = models.Restaurant.objects.all()

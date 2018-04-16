@@ -7,10 +7,10 @@ from rest_framework.views import APIView
 from rest_framework_swagger import renderers
 
 
-# overriding swagger to ensure that swagger also shows protected endpoints.
-# These endpoints will still need authentication credentials to work
 def get_swagger_view(title=None, url=None, patterns=None, urlconf=None):
     """
+    overriding swagger to ensure that swagger also shows protected endpoints.
+    These endpoints will still need authentication credentials to work
     Returns schema view which renders Swagger/OpenAPI.
     """
     class SwaggerSchemaView(APIView):
