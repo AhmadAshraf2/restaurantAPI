@@ -8,20 +8,20 @@ The API is built using REST standard and contains the below mentioned endpoints
 --> View single restaurant.
 --> View all restaurants.
 --> Create a new restaurant.
---> Updtae an existing restaurant.
+--> Update an existing restaurant.
 --> Delete a restaurant.
 
 --> Authentication
 	The view endpoints are publicly available where as the rest of the endpoints need authentication.
-	A user is authenticated based upon a auth token. whenever a user is created an auth token for that user is auto genertaed using user information.
-	Djangos User model is used. which by default has 3 types of users superuser, staff and normal. 
+	A user is authenticated based upon a auth token. whenever a user is created an auth token for that user is auto generated using user information.
+	I have created a post save signal which is run every time a user object is saved and creates a token for the new user.
+	Django's User model is used. which by default has 3 types of users superuser, staff and normal. 
 
 --> Authorization
 	Read (view) endpoints are publicly available.
 	Create endpoint is available to any registered user.
 	Update endpoint is available to any registered user.
 	Delete endpoint is only accessible to admin users.
-
 	Every role (user) has a set of permissions based on which it is allowed access to an endpoint.
  
 
@@ -65,7 +65,7 @@ After starting the dockers containers, move to the browser on your host machine 
 --> localhost:8000/docs 
 
 Please note that I am using localhost not 0.0.0.0 as IP address. 
-We are forwarding port from dokcer container to host machine, because of this swagger will start throwing a warning (cannot read from 0.0.0.0 but will work perfectly). Using localhost will get rid of this warning message.
+We are forwarding port from docker container to host machine, because of this swagger will start throwing a warning (cannot read from 0.0.0.0 but will work perfectly). Using localhost will get rid of this warning message.
 
 
 PUT, POST, DELETE endpoints require authentication. To authenticate a user in swagger, we have to add authentication token in our request.

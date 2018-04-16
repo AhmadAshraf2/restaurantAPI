@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Restaurant.apps.RestaurantConfig',
+    'restaurant.apps.RestaurantConfig',
     'rest_framework_swagger',
     'rest_framework',
     'rest_framework.authtoken',
@@ -55,7 +55,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'delivery_hero.urls'
 
-
+# Swagger settings ensuring that swagger shows token based authentication pop up.
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'api_key': {

@@ -1,6 +1,7 @@
 from django.conf.urls import url
 from . import views
 
+# routing rules for urls begining with /restaurant/...
 urlpatterns = [
     url(r'^view/$', views.ViewAllRestaurant.as_view()),
 

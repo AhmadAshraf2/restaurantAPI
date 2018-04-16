@@ -7,6 +7,7 @@ from .models import User, Restaurant
 
 class AccountTests(APITestCase):
 
+    # creates user and objects in Django test Database
     def setUp(self):
         Restaurant.objects.create(
             name='testname', closes_at="12:00:00", opens_at="12:00:00"

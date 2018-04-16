@@ -17,12 +17,12 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from delivery_hero.swagger_schema import get_swagger_view
 
-schema_view = get_swagger_view(title='Restaurant API')
+schema_view = get_swagger_view(title='restaurant API')
 
 urlpatterns = [
 
     url(r'^docs/', schema_view),
-    url(r'^restaurant/', include('Restaurant.urls')),
+    url(r'^restaurant/', include('restaurant.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('django.contrib.auth.urls')),
 ]
