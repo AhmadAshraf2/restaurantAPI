@@ -1,4 +1,4 @@
-"""delivery_hero URL Configuration
+"""Djang0_REST_API URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.0/topics/http/urls/
@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from delivery_hero.swagger_schema import get_swagger_view
+from Django_REST_API.swagger_schema import get_swagger_view
 
 schema_view = get_swagger_view(title='restaurant API')
 
